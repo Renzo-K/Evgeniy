@@ -10,3 +10,6 @@ elif 86400 > duration >= 3600:
     print(f'{duration // 3600} час {duration % 3600 // 60} мин {duration % 60} сек')
 elif duration >= 86400:
     print(f'{duration // 86400} дн {duration % 86400 // 3600} час {duration % 3600 // 60} мин {duration % 60} сек')
+
+#лаконичный вариант
+print(f'{duration // 86400} day {duration % 86400 // 3600} hr {duration % 3600 // 60} min {duration % 60} sec')
